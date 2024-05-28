@@ -1,1 +1,1 @@
-[this is my first project](main/main.html)
+[this is my first project](MyFirstProject/main.html)
