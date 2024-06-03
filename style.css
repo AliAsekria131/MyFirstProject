@@ -6,43 +6,36 @@
 	padding:0;
 	box-sizing:border-box;
 }
-
+/*---------------------------------------*/
 header {
 	background-color:#f0f2f1;
 	width:100%;
 	position:fixed;
 	z-index:999;
-	padding:1% 6%;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 2%;
 }
-
+/*-1-*/
 .logo-head{
 	display: flex;
+	align-items: center;
+
 }
 .my_logo{
-	width:100%;
-	height: auto;
-	max-width: 64px;
-	font-size: fixed;
-	margin-right: 10px;
-	padding: 0px;
-	border-radius:50% ;
+	border-radius: 200px;
+	height: 10vh;
 }
-
 .ali{
-	width: 100%;
-	height: auto;
+	font-size: 1.4em;
+	font-weight: 900;
+	text-decoration: none;
+	color: red;
+	letter-spacing: 2px;
 
-	color:red;
-	font-size:1.8em;
-	font-weight:700;
-	text-decoration:none;
-	text-transform:uppercase;
 }
-
+/*-2-*/
 .botton-head{
 	display: flex;
 }
@@ -54,9 +47,7 @@ header {
 	font-weight:500;
 	padding-left:30px;
 }
-
-
-
+/*---------------------------------------*/
 
 section {
 	padding:100px 200px;
@@ -293,65 +284,4 @@ footer div a{
 
 
 
-
-@media (max-width:1023px){
-    header{
-        padding: 5px 10px;
-    }
-
-    .navigation a{
-        padding-left: 5px;
-    }
-
-    .title{
-        font-size: 1.4em;
-    }
-
-    section{
-		font-size: 0.7em;
-        padding: 70px 50px;
-    }
-
-    .main-content h2{
-        font-size: 0.5em;
-    }
-
-    .main-content h3{
-        font-size: 1.3em;
-    }
-
-	.main{
-		padding-top:200px
-	}
-
-}
-
-
-
-@media (max-width:641px){
-    body{
-        font-size: 16px;
-    }
-
-    .main-content h2{
-        font-size: 0.8em;
-    }
-
-    .main-content h3{
-        font-size: 1.4em;
-    }
-
-
-	.card{
-		width:40%;
-	}
-
-	.content{
-		width: 100%;
-		
-	}
-	.main{
-		padding-top: 200px;
-	}
-}
 
